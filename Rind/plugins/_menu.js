@@ -90,7 +90,7 @@ Sparky({
                 menu += `┃└─⭓\n`;
                 menu += `╰━━━━>\n`;
             });
-            let sperky = {
+            let quotedMsg = {
                 "key": {
                     "participants": "0@s.whatsapp.net",
                     "remoteJid": "status@broadcast",
@@ -113,7 +113,7 @@ Sparky({
                             externalAdReply: {
                                 title: style(`Hey ${m.pushName}!`),
                                 body: style(`${config.BOT_INFO.split(";")[0]}`),
-                                sourceUrl: "https://https://aswinsparky.qzz.io",
+                                sourceUrl: "https://github.com/wasif-rind1/menu-bot-rind",
                                 mediaType: 1,
                                 showAdAttribution: true,
                                 renderLargerThumbnail: true,
@@ -134,15 +134,15 @@ Sparky({
                             externalAdReply: {
                                 title: style(`Hey ${m.pushName}!`),
                                 body: style(`${config.BOT_INFO.split(";")[0]}`),
-                                sourceUrl: "https://https://aswinsparky.qzz.io",
-                                mediaUrl: "https://https://aswinsparky.qzz.io",
+                                sourceUrl: "https://github.com/wasif-rind1/menu-bot-rind",
+                                mediaUrl: "https://github.com/wasif-rind1/menu-bot-rind",
                                 mediaType: 1,
                                 showAdAttribution: true,
                                 renderLargerThumbnail: false,
                                 thumbnailUrl: `${config.BOT_INFO.split(";")[2]}`
                             }
                         }
-                    }, { quoted: sperky });
+                    }, { quoted: quotedMsg });
                     break;
                 }
                 case 'document': {
@@ -158,7 +158,7 @@ Sparky({
                             externalAdReply: {
                                 title: style(`Hey ${m.pushName}!`),
                                 body: style(`${config.BOT_INFO.split(";")[0]}`),
-                                sourceUrl: "https://https://aswinsparky.qzz.io",
+                                sourceUrl: "https://github.com/wasif-rind1/menu-bot-rind",
                                 mediaType: 1,
                                 showAdAttribution: true,
                                 renderLargerThumbnail: true,
@@ -166,7 +166,7 @@ Sparky({
                             }
                         }
                     }, {
-                        quoted: sperky
+                        quoted: quotedMsg
                     });
                     break;
                 }
@@ -174,7 +174,7 @@ Sparky({
                     return await client.sendMessage(m.jid, {
                         text: style(menu)
                     }, {
-                        quoted: sperky
+                        quoted: quotedMsg
                     });
                     break;
                 }
@@ -186,7 +186,7 @@ Sparky({
                             caption: style(menu),
                             gifPlayback: true
                         },
-                        { quoted: sperky }
+                        { quoted: quotedMsg }
                     );
                     break;
                 }
@@ -220,4 +220,3 @@ Sparky({
         console.log(e);
     }
 });
-
