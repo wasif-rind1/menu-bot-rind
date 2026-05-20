@@ -1,17 +1,17 @@
 {
-  "name": "X-BOT-MD",
+  "name": "Rind-Bot",
   "version": "3.7.0",
-  "description": "X-BOT-MD is a powerful WhatsApp Helper Bot packed with features like media handling, automation, and more.",
+  "description": "Rind-Bot is a powerful WhatsApp Helper Bot packed with features like media handling, automation, and more.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name X-BOT-MD",
-    "stop": "pm2 stop . --attach --name X-BOT-MD"
+    "start": "pm2 start . --attach --name Rind-Bot",
+    "stop": "pm2 stop . --attach --name Rind-Bot"
   },
-  "author": "ASWIN SPARKY",
+  "author": "Wasif Rind",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X--BOT--MD.git"
+    "url": "git+https://github.com/wasif-rind1/menu-bot-rind.git"
   },
   "dependencies": {
     "@viper-x/fancytext": "^1.0.2",
