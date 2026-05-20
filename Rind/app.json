@@ -1,9 +1,9 @@
 {
-  "name": "X-BOT-MD",
+  "name": "Rind-Bot",
   "version": "3.5.5",
-  "description": "X-BOT-MD – A Simple and Powerful WhatsApp Bot",
+  "description": "Rind-Bot – A Simple and Powerful WhatsApp Bot",
   "logo": "https://i.imgur.com/Q2UNwXR.jpg",
-  "repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X--BOT--MD",
+  "repository": "https://github.com/wasif-rind1/menu-bot-rind",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -18,7 +18,7 @@
     "SUDO": {
       "description": "Enter owner numbers with country code (without +), separated by commas for multiple owners. Example: 919876543210,917012345678",
       "required": true,
-      "value": "917012984396"
+      "value": "923272516116"
     },
     "HEROKU_APP_NAME": {
       "description": "Enter the exact name of your Heroku app (must match the app name you created).",
@@ -31,12 +31,12 @@
     "STICKER_DATA": {
       "description": "Set the Sticker Pack name and Author name (Format: PackName;AuthorName).",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY"
+      "value": "Rind-Bot;Wasif Rind"
     },
     "BOT_INFO": {
       "description": "Customize bot menu information (Format: BotName;OwnerName;ImageURL).",
       "required": false,
-      "value": "X-BOT-MD;ASWIN SPARKY;https://url.aswinsparky.qzz.io/sparky.jpg"
+      "value": "Rind-Bot;Wasif Rind;https://i.imgur.com/Q2UNwXR.jpg"
     },
     "ALWAYS_ONLINE": {
       "description": "Set to 'true' to keep bot always online, or 'false' to stay offline until a message is received.",
